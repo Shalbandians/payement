@@ -63,7 +63,9 @@ app.post("/create-payment-link", async (req, res) => {
     res.status(500).json({ success: false, error: err.response?.data || err.message });
   }
 });
-
+app.get("/", (req, res) => {
+  res.send("Welcome to the Razorpay Payment Link API");
+})
 // ======= GET request (new) =======
 app.get("/create-payment-link", async (req, res) => {
   try {
