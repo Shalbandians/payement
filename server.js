@@ -120,6 +120,6 @@ app.get("/create-payment-link", async (req, res) => {
   }
 });
 
-app.listen(6000, () => {
-  console.log("Server running on http://localhost:6000");
+app.listen(4000, () => {
+  console.log("Server running on http://localhost:4000");
 });
