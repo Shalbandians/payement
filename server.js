@@ -6,8 +6,8 @@ const app = express();
 app.use(bodyParser.json());
 
 // Razorpay keys
-const key_id = "rzp_test_NtGJisWFHp0dUj";
-const key_secret = "WnCZ8E1Gc069EI3GiOYu2wiw";
+const key_id = "rzp_live_yCQ5jbRwGGI9nT";
+const key_secret = "BYB4pMAswaTKUESdBUxHteHR";
 
 // WhatsApp sending function (dummy – replace with your bot sendMessage)
 async function sendWhatsAppMessage(number, text) {
